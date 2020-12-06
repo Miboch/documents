@@ -33,7 +33,7 @@ const bar = () => {}
 ```
 
 ## Immediately Invoking
-Now, usually to call a function you just need to type its name followed by brackets `()`.
+Now, usually to call a function you just need to type its name followed by parenthesis `()`.
 ```js
 function foo() {
   // function code...
@@ -41,7 +41,7 @@ function foo() {
 foo() // invoke foo.
 ```
 
-However this is obviously not possible in an anonymous function because it has no label to refer to it. However, this can be solved by wrapping the function, in brackets.
+However this is obviously not possible in an anonymous function because it has no label to refer to it. However, this can be solved by wrapping the function, in parenthesis.
 ```js
 (function() {
 
@@ -50,7 +50,9 @@ However this is obviously not possible in an anonymous function because it has n
 (() => {})
 ```
 
-This bracket notation allows us to immediately invoke the function, since the brackets have a higher precedence. So, now that we have the function wrapped, we merely add another set of brackets to invoke the function after it is being declared inside the first brackets, which gives us the final notation:
+This parenthesis notation allows us to immediately invoke the function, since the parenthesis have a higher precedence it disambiguates the fact that we want to declare the function and then invoke it. 
+
+So, now that we have the function wrapped, we merely add another set of parenthesis to invoke the function as if it was any other normal function. This gives us the final notation:
 
 ```js
 // function
