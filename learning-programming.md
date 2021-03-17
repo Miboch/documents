@@ -6,13 +6,13 @@ Learning how to program for me, can be broadly be broken down into three main ca
 - Problem Analysis  
 - Applying Your Knowledge  
 
-In order to become an effect programmer, you need to be able to perform reasonably well in all of these aspects. That is to say, you will not necessarily be unsuccessful if you are weak in one, but you definitely need to have some understanding and skill in all of them.
+In order to become an effective programmer, you need to be able to perform reasonably well in all of these aspects. That is to say, you will not necessarily be unsuccessful if you are weak in one, but you definitely need to have some understanding and skill in all of them.
 
 **First Principles**
 
 Before moving into the topic of syntax I think it’s good to take a step back, and look at what programming really is, at the general level.
 
-The only thing, a computer really does is shifting voltages from low to high in transistors, to indicate whether a bit is turned on or off: 0 or 1.
+The only thing a computer really does is shifting voltages from low to high in transistors, to indicate whether a bit is turned on or off: 0 or 1.
 
 Aside from the instruction sets baked into our hardware; that is – patterns of 0’s and 1’s which mean something to the hardware, because those patterns have been baked into the circuitry to do specific things – everything else is interpreted.
 
@@ -58,7 +58,7 @@ Even though the style of syntax can differ between programming languages, they a
 
 This happens because the general patterns which are possible in programming languages is constrained by their purpose, which is creating instructions for the hardware they target.
 
-This means when you’ve learned the general principles of these patterns: branching, loops, conditionals, etc. you will be comfortable with them, even when switching your syntax.
+This means when you’ve learned the general principles of these patterns: branching, loops, conditionals, etc. you will be comfortable with them, even when switching your language, and therefore syntax.
 
 Because no write-up would be complete without a car analogy, you can compare it a bit to learning how to drive. You won’t have to re-take your license to go from an automatic geared car to a manual geared one. All you need is a bit of practice. The rest of your driving skills are transferable.
 
@@ -78,7 +78,7 @@ The next thing to learn, is how to apply these general patterns to solve problem
 
 Let me illustrate with an example:
 
-Given the following problem _Write every number between 0 and 100 inclusive._ its solution in JavaScript would look as follows:
+Given the following problem _Write every number between 0 and 100 inclusive._ it's solution in JavaScript would look as follows:
 
 ```js
 for (let i = 0; i++; i <= 100) {
