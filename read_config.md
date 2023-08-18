@@ -1,17 +1,3 @@
-# Unrelated code snippet
-
-import random
-
-```py
-def symbolTuple():
-    tuple = (chr(random.randint(32,47)),chr(random.randint(58,64)),chr(random.randint(91,96)))
-    return tuple
-
-print(symbolTuple())
-print(symbolTuple())
-print(symbolTuple())
-```
-
 # Create a configurable password generator
 In this guide, we will set some tasks for how to create a simple Python password generator.
 
